@@ -1,0 +1,26 @@
+###Obtener empleados
+GET http://localhost:3000/api/employees
+
+###Obtener empleado por ID
+GET http://localhost:3000/api/employees/7
+
+###Crear empleado
+POST http://localhost:3000/api/employees
+Content-Type: application/json
+
+{
+   "name": "Jose",
+   "salary": 7000
+}
+
+###Editar la informacion de un empleado
+PUT http://localhost:3000/api/employees/6
+Content-Type: application/json
+
+{
+   "name": "Juan",
+   "salary" : 1500
+}
+
+###Eliminar un empleado
+DELETE http://localhost:3000/api/employees/6
