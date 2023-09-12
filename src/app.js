@@ -1,7 +1,7 @@
 import express from 'express'
 import indexRoutes from './routes/index.routes.js'
 import employeesRoutes from './routes/employes.routes.js'
-import {PORT} from './config.js'
+
 
 const app = express()
 
